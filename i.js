@@ -66,13 +66,22 @@ function rand(min, max) {
 // console.log(kibirasBlue, kibirasGreen);
 
 
-let kibiras = 0;
-for (let i = 0; i < 20; i++) {
-    let siuksliu = rand(5, 105);
-    if (kibiras + siuksliu > 500) {
-        break;
-    } else {
-        kibiras += siuksliu;
+// let kibiras = 0;
+// for (let i = 0; i < 20; i++) {
+//     let siuksliu = rand(5, 105);
+//     if (kibiras + siuksliu > 500) {
+//         break;
+//     } else {
+//         kibiras += siuksliu;
+//     }
+// }
+// console.log(kibiras);
+
+for (let viskas = 0; viskas < 5; viskas++) {
+    let viskas = "";
+    for (let i = 0; i < 100; i++) {
+        let plus = "+";
+        viskas += plus;
     }
+    console.log(viskas);
 }
-console.log(kibiras);
